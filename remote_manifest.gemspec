@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = "Load sprockets manifest file from a remote server"
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "README.md"]
 
   s.add_dependency "rails", "~> 4.2.8"
   s.add_development_dependency "sqlite3"
