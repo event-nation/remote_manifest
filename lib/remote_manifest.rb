@@ -1,0 +1,3 @@
+module RemoteManifest
+  # Your code goes here...
+end
