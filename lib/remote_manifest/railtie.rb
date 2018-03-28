@@ -6,7 +6,7 @@ module RemoteManifest
 
     config.to_prepare do
       config = Rails.application.config.assets
-      RemoteManifest::Railtie.setup! config.remote_manifest.present?
+      RemoteManifest::Railtie.setup! if config.remote_manifest.present?
     end
 
     def self.setup!
