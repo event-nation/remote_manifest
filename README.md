@@ -1,8 +1,12 @@
-# RemoteManifest
-Short description and motivation.
+# Remote Manifest
+Fetch sprockets manifest file from a remote URL
 
 ## Usage
-How to use my plugin.
+```ruby
+Rails.application.configure do
+  config.assets.remote_manifest = 'https://static.my-app.com/manifest.json'
+end
+```
 
 ## Installation
 Add this line to your application's Gemfile:
